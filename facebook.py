@@ -28,6 +28,9 @@ schedule.every().day.at("08:00").do(sendPost) # Run everyday at the set time
 
 
 while True:
+    # Checks if scheduler has pending tasks
     schedule.run_pending()
+
+    # Scheduler sleeps for 1 day
     time.sleep(1)
 
