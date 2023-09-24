@@ -43,7 +43,7 @@ PAGE_ACCESS_TOKEN = 'your_page_access_token_here'
     python your_script_name.py
     ```
 
-    Replace `your_script_name.py` with the actual name of your Python script.
+    Replace `facebook.py` with the actual name of your Python script.
 
 4. **Sit Back and Relax**: The script will run continuously and post your scheduled content at the specified time every day.
 
