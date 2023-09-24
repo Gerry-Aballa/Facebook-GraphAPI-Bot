@@ -14,11 +14,10 @@ Before using this script, you need to have the following:
 
 3. **Access Token**: You need to generate a Page Access Token for your Facebook Page. This token allows the script to post on your behalf. Ensure that this token has the required permissions to post on the Page.
 
-4. **Python Dependencies**: You must have Python installed on your system along with the `requests` and `schedule` libraries. You can install these libraries using pip:
+4. **Python Dependencies**: You must have Python installed on your system along with the `requests` and `schedule` libraries. You can install these libraries using pip and `requirements.txt`
 
     ```
-    pip install requests
-    pip install schedule
+    pip install -r requirements.txt
     ```
 
 ## Configuration
