@@ -40,10 +40,8 @@ PAGE_ACCESS_TOKEN = 'your_page_access_token_here'
 3. **Run the Script**: Run the script using the following command:
 
     ```
-    python your_script_name.py
+    python3 facebook.py
     ```
-
-    Replace `facebook.py` with the actual name of your Python script.
 
 4. **Sit Back and Relax**: The script will run continuously and post your scheduled content at the specified time every day.
 
