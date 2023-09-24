@@ -35,7 +35,7 @@ PAGE_ACCESS_TOKEN = 'your_page_access_token_here'
 
 1. **Define Your Post Content**: Modify the `post_message` variable to specify the text of the post you want to schedule. You can also include a link if desired.
 
-2. **Schedule Posting Time**: Adjust the `schedule.every().day.at("06:58").do(sendPost)` line to set the time at which you want the post to be scheduled. By default, it's set to 06:58 AM.
+2. **Schedule Posting Time**: Adjust the `schedule.every().day.at("08:00").do(sendPost)` line to set the time at which you want the post to be scheduled. By default, it's set to 08:00 AM.
 
 3. **Run the Script**: Run the script using the following command:
 
