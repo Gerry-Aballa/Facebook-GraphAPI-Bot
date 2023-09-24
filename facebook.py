@@ -24,7 +24,7 @@ def sendPost():
     print("Posted successfully!")
 
 
-schedule.every().day.at("06:58").do(sendPost) # Run everyday at the set time
+schedule.every().day.at("08:00").do(sendPost) # Run everyday at the set time
 
 
 while True:
